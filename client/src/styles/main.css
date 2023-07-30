@@ -1,0 +1,15 @@
+.widgetCells {
+  width: calc(100% / 7);
+  height: 90px;
+  border: 1px solid lightgray;
+}
+
+.completed {
+  background-color: aqua;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

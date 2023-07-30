@@ -1,0 +1,30 @@
+{
+  "name": "habit-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "mongoose-unique-validator": "^3.0.0",
+    "react-router-dom": "^6.2.1"
+  },
+  "scripts": {
+    "serve": "npx nodemon index.js",
+    "seed": "node seeds/seeds.js",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.11.0"
+  }
+}
